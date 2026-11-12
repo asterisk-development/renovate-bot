@@ -7,6 +7,7 @@ module.exports = {
     suppressNotifications: ["configErrorIssue"],
     onboardingConfig: {
         extends: ["config:recommended"],
+        // dependencyDashboard: false,
         minimumReleaseAge: "3 days",
         packageRules: [
             { matchUpdateTypes: ["minor", "patch"], automerge: true },
